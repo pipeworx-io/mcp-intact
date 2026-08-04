@@ -2,12 +2,14 @@
 
 IntAct (EBI) molecular-interaction database MCP. Keyless.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 823+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
+| `find_interactions` | IntAct (EBI) molecular-interaction database — find protein-protein and other molecular interactions for a gene/protein (by name or UniProt id), with detection method, interaction type, organism, PubMed ref, and MI confidence score. Keyless. |
+| `interaction_count` | IntAct (EBI) — fast count of how many molecular interactions a gene/protein (by name or UniProt id) has. Keyless. |
 
 ## Quick Start
 
@@ -23,7 +25,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 823+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -47,7 +49,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
