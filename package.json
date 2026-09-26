@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-intact",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "IntAct (EBI) molecular-interaction database MCP. Keyless.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-8f0be5bf90b058b4a8e046f48482b6ab4a630cd1b5434da0dd908a84948afd2e",
-    "sourceCommit": "70cd53748fc9f9a43ed3681d751bfa96e701efd2"
+    "sourceHash": "v1-3abcdd2958c52790207731bb18bdfd8e1f2a6ddbf74a7c04c19e1316463f1aeb",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
