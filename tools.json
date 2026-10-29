@@ -1,0 +1,42 @@
+[
+  {
+    "name": "find_interactions",
+    "description": "IntAct (EBI) molecular-interaction database — find protein-protein and other molecular interactions for a gene/protein (by name or UniProt id), with detection method, interaction type, organism, PubMed ref, and MI confidence score. Keyless.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Gene name, protein name, or UniProt accession (e.g. \"EGFR_HUMAN\", \"BRCA2\", \"P04637\")."
+        },
+        "limit": {
+          "type": "number",
+          "description": "Max interactions to return (default 20, max 100)."
+        },
+        "page": {
+          "type": "number",
+          "description": "Page number, 0-indexed (default 0)."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "name": "interaction_count",
+    "description": "IntAct (EBI) — fast count of how many molecular interactions a gene/protein (by name or UniProt id) has. Keyless.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Gene name, protein name, or UniProt accession (e.g. \"EGFR_HUMAN\", \"BRCA2\", \"P04637\")."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  }
+]
